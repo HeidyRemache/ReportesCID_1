@@ -9,7 +9,7 @@
       <am:Name>SSDTRS</am:Name>
       <am:Version>17.8.34408.163</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2024-07-17T15:21:45.7968176Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2024-07-18T15:04:16.6835673Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily>
   <AutoRefresh>0</AutoRefresh>
@@ -49,8 +49,8 @@
           <DataField>CorreoElectronico</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
-        <Field Name="Categoría">
-          <DataField>Categoría</DataField>
+        <Field Name="Categoria">
+          <DataField>Categoria</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
         <Field Name="TotalHoras">
@@ -438,14 +438,14 @@
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Categoría">
+                        <Textbox Name="Categoria">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!Categoría.Value</Value>
+                                  <Value>=Fields!Categoria.Value</Value>
                                   <Style>
                                     <FontFamily />
                                     <FontSize>7pt</FontSize>
@@ -458,7 +458,7 @@
                               </Style>
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>Categoría</rd:DefaultName>
+                          <rd:DefaultName>Categoria</rd:DefaultName>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
@@ -500,7 +500,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Sum(Fields!TotalHoras.Value)</Value>
+                                  <Value>=(Fields!TotalHoras.Value)</Value>
                                   <Style>
                                     <FontFamily />
                                     <FontSize>7pt</FontSize>
@@ -650,7 +650,7 @@
                               <Paragraph>
                                 <TextRuns>
                                   <TextRun>
-                                    <Value>=RunningValue(Fields!Carrera.Value, CountDistinct, Nothing)</Value>
+                                    <Value>=RunningValue(Fields!Docente.Value, CountDistinct, Nothing)</Value>
                                     <Style>
                                       <FontFamily />
                                       <FontSize>7pt</FontSize>
@@ -694,6 +694,7 @@
                               <PaddingBottom>2pt</PaddingBottom>
                             </Style>
                           </Textbox>
+                          <rd:Selected>true</rd:Selected>
                         </CellContents>
                       </TablixHeader>
                       <TablixMembers>

@@ -9,7 +9,7 @@
       <am:Name>SSDTRS</am:Name>
       <am:Version>17.8.34408.163</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2024-07-17T15:21:57.5508063Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2024-07-18T15:07:15.8267044Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily>
   <AutoRefresh>0</AutoRefresh>
@@ -52,8 +52,8 @@
           <DataField>CorreoElectronico</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
-        <Field Name="Categoroa">
-          <DataField>Categoroa</DataField>
+        <Field Name="Categoria">
+          <DataField>Categoria</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
         <Field Name="TotalHoras">
@@ -443,14 +443,14 @@
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Categoroa">
+                        <Textbox Name="Categoria">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!Categoroa.Value</Value>
+                                  <Value>=Fields!Categoria.Value</Value>
                                   <Style>
                                     <FontFamily />
                                     <FontSize>7pt</FontSize>
@@ -463,7 +463,7 @@
                               </Style>
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>Categoroa</rd:DefaultName>
+                          <rd:DefaultName>Categoria</rd:DefaultName>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
@@ -699,9 +699,9 @@
                   </TablixMembers>
                 </TablixMember>
                 <TablixMember>
-                  <Group Name="Carrera">
+                  <Group Name="Docente">
                     <GroupExpressions>
-                      <GroupExpression>=Fields!Carrera.Value</GroupExpression>
+                      <GroupExpression>=Fields!Docente.Value</GroupExpression>
                     </GroupExpressions>
                   </Group>
                   <SortExpressions>

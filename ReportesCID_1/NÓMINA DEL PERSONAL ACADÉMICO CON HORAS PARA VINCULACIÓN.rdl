@@ -9,7 +9,7 @@
       <am:Name>SSDTRS</am:Name>
       <am:Version>17.8.34408.163</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2024-07-17T15:22:20.8914712Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2024-07-18T15:10:39.9867214Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily>
   <AutoRefresh>0</AutoRefresh>
@@ -52,8 +52,8 @@
           <DataField>CorreoElectronico</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
-        <Field Name="Categoría">
-          <DataField>Categoría</DataField>
+        <Field Name="Categoria">
+          <DataField>Categoria</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
         <Field Name="TotalHoras">
@@ -443,14 +443,14 @@
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Categoría">
+                        <Textbox Name="Categoria">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!Categoría.Value</Value>
+                                  <Value>=Fields!Categoria.Value</Value>
                                   <Style>
                                     <FontFamily />
                                     <FontSize>7pt</FontSize>
@@ -463,7 +463,7 @@
                               </Style>
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>Categoría</rd:DefaultName>
+                          <rd:DefaultName>Categoria</rd:DefaultName>
                           <Style>
                             <Border>
                               <Style>Solid</Style>

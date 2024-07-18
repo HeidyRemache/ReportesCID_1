@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="DataSource1">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=192.168.199.96;Initial Catalog=SicoaDBPrincipal</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>ff945e10-e828-4f8b-8aaf-28c3604cc842</DataSourceID>
+</RptDataSource>

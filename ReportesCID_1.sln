@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "ReportesCID_1", "ReportesCID_1\ReportesCID_1.rptproj", "{DBE7DCFC-266A-4718-B4BA-FF7BDEA76043}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBE7DCFC-266A-4718-B4BA-FF7BDEA76043}.Debug|Default.ActiveCfg = Debug
+		{DBE7DCFC-266A-4718-B4BA-FF7BDEA76043}.Debug|Default.Build.0 = Debug
+		{DBE7DCFC-266A-4718-B4BA-FF7BDEA76043}.Debug|Default.Deploy.0 = Debug
+		{DBE7DCFC-266A-4718-B4BA-FF7BDEA76043}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{DBE7DCFC-266A-4718-B4BA-FF7BDEA76043}.DebugLocal|Default.Build.0 = DebugLocal
+		{DBE7DCFC-266A-4718-B4BA-FF7BDEA76043}.Release|Default.ActiveCfg = Release
+		{DBE7DCFC-266A-4718-B4BA-FF7BDEA76043}.Release|Default.Build.0 = Release
+		{DBE7DCFC-266A-4718-B4BA-FF7BDEA76043}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10363733-48A2-4EDA-9F9E-A69D44944BE3}
+	EndGlobalSection
+EndGlobal

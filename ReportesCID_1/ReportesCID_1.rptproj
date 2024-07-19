@@ -52,7 +52,6 @@
     <DataSource Include="DataSource1.rds" />
   </ItemGroup>
   <ItemGroup>
-    <Report Include="(3)NÓMINA DE ESTUDIANTES POR MATRICULA.rdl" />
     <Report Include="INFORME DE PLANIFICACIÓN DE METAS DE INVESTIGACIÓN.rdl" />
     <Report Include="NÓMINA DE REPONSABLES DE INVESTIGACIÓN POR CARRERA.rdl" />
     <Report Include="NÓMINA DE REPONSABLES DE PRÁCTICAS PREPROFESIONALES POR CARRERA.rdl" />

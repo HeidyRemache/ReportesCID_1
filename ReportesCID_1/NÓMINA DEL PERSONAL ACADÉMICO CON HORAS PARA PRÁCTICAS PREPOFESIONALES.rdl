@@ -9,7 +9,7 @@
       <am:Name>SSDTRS</am:Name>
       <am:Version>17.8.34408.163</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2024-07-18T15:07:15.8267044Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2024-07-19T14:25:46.9216961Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily>
   <AutoRefresh>0</AutoRefresh>
@@ -721,7 +721,7 @@
                               <Paragraph>
                                 <TextRuns>
                                   <TextRun>
-                                    <Value>=RunningValue(Fields!Carrera.Value, CountDistinct, Nothing)</Value>
+                                    <Value>=RunningValue(Fields!Docente.Value, CountDistinct, Nothing)</Value>
                                     <Style>
                                       <FontFamily />
                                       <FontSize>7pt</FontSize>
@@ -874,7 +874,7 @@
         <Height>0.65166in</Height>
         <Style />
       </Body>
-      <Width>6.51075in</Width>
+      <Width>6.46041in</Width>
       <Page>
         <PageHeader>
           <Height>2.54cm</Height>
